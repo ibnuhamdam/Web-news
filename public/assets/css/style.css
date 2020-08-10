@@ -1,0 +1,165 @@
+/* Home CSS */
+body {
+  /* font-family: "Nunito", sans-serif; */
+}
+
+.nav-link {
+  padding-right: 0 !important;
+}
+
+.navbar {
+  background-color: #0a97b0;
+  color: rgb(246, 246, 246);
+}
+
+.navbar a {
+  color: rgb(246, 246, 246);
+}
+
+.headline-news img {
+  height: 100%;
+}
+
+.headline-news a {
+  text-decoration: none;
+  color: rgb(239, 239, 239);
+}
+
+.headline-news .head-1 {
+  height: 400px;
+  max-width: 49%;
+  margin-right: 5px;
+  padding-top: 310px;
+  padding-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.headline-news .head-2 {
+  height: 200px;
+  margin-right: 5px;
+  max-width: 49%;
+  padding-top: 130px;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.headline-news .head-2 {
+  font-size: 14px;
+}
+
+.headline-news .head-2 hr,
+.headline-news .head-1 hr {
+  border-top: 2px solid white;
+  width: 30%;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+/* Section Olahraga */
+
+.olahraga p,
+.covid p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.olahraga hr,
+.covid hr {
+  margin-top: 40px;
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.olahraga .content hr,
+.covid .content hr {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 60%;
+  margin-left: 0px;
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.olahraga h5,
+.covid h5 {
+  font-family: "Nunito", sans-serif;
+}
+
+/* Iklan */
+.iklan .isi {
+  background-color: darkgrey;
+  height: 130px;
+}
+
+/* Lain lain */
+.lain-lain {
+  margin-bottom: 50px;
+}
+
+.lain-lain p {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.lain-lain a {
+  text-decoration: none;
+  color: #0a97b0;
+  transition: all 0.8s ease-in-out;
+}
+
+.lain-lain a:hover {
+  text-decoration: none;
+  color: #1b6ca8;
+  transition: all 0.8s ease-in-out;
+}
+
+.lain-lain h5 {
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.lain-lain .btn-lihatlain {
+  background-color: #1b6ca8;
+  padding: 7px 50px;
+  color: white;
+  border-radius: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.lain-lain .btn-lihatlain:hover {
+  background-color: #0d4b7a;
+  padding: 7px 50px;
+  color: white;
+  border-radius: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Blog */
+
+.blog h5 {
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.blog p {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.blog .penulis {
+  font-size: 10px;
+}
+
+/* Footer */
+
+footer p {
+  padding: 15px 20px;
+  margin-bottom: 0;
+  background-color: #053b64;
+}
